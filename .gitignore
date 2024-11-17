@@ -1,0 +1,44 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore credentials and sensitive files
+*.ppk
+*.pem
+*.json
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore input/output images
+input/
+output_image_*.png
+sr_image.png
+lr_image.png
+sr_face.png
+lr_face.png
+
+# Ignore RealESRGAN models and weight files
+weights/
+RealESRGAN/
+
+# Ignore specific deployment files
+*.yaml
+*.txt
+.Dockerfile
+.gcloudignore
